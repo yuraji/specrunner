@@ -1,0 +1,23 @@
+{
+  "name": "SpecRunner",
+  "version": "0.0.0",
+  "authors": [
+    "Yuriy Linnyk <yuraji@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "1",
+    "jquery": "2.1",
+    "mocha": "1",
+    "chai": "1",
+    "chai-jquery": "1",
+    "requirejs": "2"
+  }
+}
