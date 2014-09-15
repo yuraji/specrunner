@@ -1,13 +1,13 @@
 require.config({
-  baseUrl: '/backbone-tests/',
+  baseUrl: '/specrunner/',
   paths: {
-    'jquery'        : '/bower_components/jquery/dist/jquery',
-    'underscore'    : '/bower_components/underscore/underscore',
-    'backbone'      : '/bower_components/backbone/backbone',
-    'mocha'         : '/bower_components/mocha/mocha',
-    'chai'          : '/bower_components/chai/chai',
-    'chai-jquery'   : '/bower_components/chai-jquery/chai-jquery',
-    'models'        : '/app/models'
+    'jquery'        : 'bower_components/jquery/dist/jquery',
+    'underscore'    : 'bower_components/underscore/underscore',
+    'backbone'      : 'bower_components/backbone/backbone',
+    'mocha'         : 'bower_components/mocha/mocha',
+    'chai'          : 'bower_components/chai/chai',
+    'chai-jquery'   : 'bower_components/chai-jquery/chai-jquery',
+    'models'        : 'app/models'
   },    
   shim: {
     'chai-jquery': ['jquery', 'chai'],
